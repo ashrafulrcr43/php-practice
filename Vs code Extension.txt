@@ -1,0 +1,9 @@
+PHP Debug
+PHP IntelliSense
+PHP Server
+MySQL by Weijan Chen
+PHP Intelephense
+Code Spell Checker
+Auto Rename Tag
+
+Code Runner
