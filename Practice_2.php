@@ -51,11 +51,32 @@ if($score >=80){
 printf($gread);
 
 // Ternary Operator:
+===========================
+    
 $age =20;
 $msg = '';
 $age >=18?($msg = 'You are adult'):($msg = 'You are Child');
 printf($msg);
 
+//Nested Ternary Operator:
+
+$marks = 70;
+$gread = '';
+
+$gread = $marks >= 80? ("A+"):(
+    $marks >= 70? ("A"):(
+        $marks >= 60? ("A-"):(
+            $marks >= 50? ("B"):(
+                $marks >= 40? ("C"):(
+                    $marks >= 33? ("D"):(
+                        "F")
+                    )
+            )
+        )
+    )
+    
+);
+print($gread);
 
 //switch case
 ====================
